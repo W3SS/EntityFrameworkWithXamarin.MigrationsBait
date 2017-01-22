@@ -23,5 +23,10 @@
       <Link>Cat.cs</Link>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\TextFile1.txt">
+      <Link>TextFile1.txt</Link>
+    </Content>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
